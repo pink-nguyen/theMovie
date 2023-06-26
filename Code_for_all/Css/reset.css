@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: #032541;
+}
+
+input{
+    outline: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(3, 37, 65);
+    font-family: Source Sans Pro;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
