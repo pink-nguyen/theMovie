@@ -11,7 +11,8 @@ function signup(e){
 
     let json = JSON.stringify(user)
     localStorage.setItem(username,json)
-    alert('dky thanh cong')
+    alert('register success')
+    window.location.href = '../Home_page/index.html'
 }
 
 function login(e){
