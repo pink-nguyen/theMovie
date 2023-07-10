@@ -90,55 +90,55 @@ let movies = [
     id: 2,
     name: 'The Super Mario Bros. Movie',
     date: 'Apr 05, 2023',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/mario.html'
   },
   {
     id: 3,
     name: 'Elemental',
     date: 'Jun 14, 2023',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/elemental.html'
   },
   {
     id: 4,
     name: 'Mortal Kombat Legends: Scorpions Revenge',
     date: 'Apr 12, 2020',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/motal.html'
   },
   {
     id: 5,
     name: 'Black Clover: Sword of the Wizard King',
     date: 'Jun 16, 2023',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/blackClover.html'
   },
   {
     id: 6,
     name: 'Sword Art Online the Movie -Progressive- Scherzo ',
     date: 'Oct 22, 2022',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/SAO.html'
   },
   {
     id: 7,
     name: 'That Time I Got Reincarnated slime',
     date: 'Nov 25, 2022',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/slime.html'
   },
   {
     id: 8,
     name: 'Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train',
     date: 'May 31, 2023',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/kny.html'
   },
   {
     id: 9,
     name: 'Jujutsu Kaisen 0',
     date: 'Dec 24, 2021',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/jjk.html'
   },
   {
     id: 10,
     name: 'Stand by Me Doraemon',
     date: 'Aug 08, 2014',
-    link: '../Movie_details_page/spiderman.html'
+    link: '../Movie_details_page/doraemon.html'
   },
   
 ]
