@@ -1,0 +1,23 @@
+
+.banner-wrapper{
+    background-image: url(../Img/spider-bg.jpg);
+}
+
+.banner-bg{
+    background-image: linear-gradient(to right, rgba(178.5, 220.5, 241.5, 1) calc((50vw - 170px) - 340px), rgba(178.5, 220.5, 241.5, 0.84) 50%, rgba(178.5, 220.5, 241.5, 0.84) 100%);
+}
+
+
+.banner .banner-right,
+.banner .banner-right a {
+    color: #000;
+}
+
+.banner .action .video svg path{
+    fill: #000;
+}
+
+.banner .fact span:first-child {
+    border: 1px solid #000 !important;
+}
+

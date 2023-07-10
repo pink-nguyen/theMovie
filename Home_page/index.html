@@ -12,11 +12,11 @@
   <body>
     <!-- Header -->
     <div class="container">
-      <header class="header-nav">
+      <header  class="header-nav">
         <div class="content">
           <div class="head-left">
             <h1 class="logo">
-              <svg
+              <a href="../Home_page/index.html"><svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 273.42 35.52"
@@ -48,13 +48,64 @@
                     />
                   </g>
                 </g>
-              </svg>
+              </svg></a>
             </h1>
             <ul id="navbar">
-              <li>Movies</li>
-              <li>TV Shows</li>
-              <li>People</li>
-              <li>More</li>
+              <li><a href="#">Movies</a>
+                <ul>
+                  <li>
+                    <a href="../Sort_movie/index.html">Popular</a>
+                  </li>
+                  <li>
+                    <a href="#">Now playing</a>
+                  </li>
+                  <li>
+                    <a href="#">Upcoming</a>
+                  </li>
+                  <li>
+                    <a href="#">Top rated</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">TV Shows</a>
+                <ul>
+                  <li>
+                    <a href="../Sort_movie/index.html">Popular</a>
+                  </li>
+                  <li>
+                    <a href="#">Airing today</a>
+                  </li>
+                  <li>
+                    <a href="#">On TV</a>
+                  </li>
+                  <li>
+                    <a href="#">Top rated</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">People</a>
+                <ul>
+                  <li>
+                    <a href="../People_page/people.html">Popular People</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">More</a>
+                <ul>
+                  <li>
+                    <a href="#">Discussions</a>
+                  </li>
+                  <li>
+                    <a href="#">Leaderboard</a>
+                  </li>
+                  <li>
+                    <a href="#">Support</a>
+                  </li>
+                  <li>
+                    <a href="#">API</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
           <ul class="head-right">
@@ -73,11 +124,11 @@
                 </svg>
               </a>
             </li>
-            <li><a href="">EN</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="">Join TMDB</a></li>
+            <li><a href="#">EN</a></li>
+            <li><a href="../Login_signUp_page/Login.html">Login</a></li>
+            <li><a href="#">Join TMDB</a></li>
             <li class="search">
-              <a href="">
+              <a class="open-search" href="#">
                 <svg
                   id="glyphicons-basic"
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +141,53 @@
                   />
                 </svg>
               </a>
+              <a class="close-search" href="#">
+                <svg class="d-none" id="glyphicons-basic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <path id="menu-close" d="M25.83881,23.01038a.5.5,0,0,1,0,.70715l-2.12128,2.12134a.50011.50011,0,0,1-.70709,0L16,18.82837l-7.01044,7.0105a.50011.50011,0,0,1-.70709,0L6.16119,23.71753a.5.5,0,0,1,0-.70715L13.17163,16,6.16119,8.9895a.49982.49982,0,0,1,0-.707L8.28247,6.16113a.5.5,0,0,1,.70709,0L16,13.17163l7.01044-7.0105a.5.5,0,0,1,.70709,0l2.12128,2.12134a.49982.49982,0,0,1,0,.707L18.82843,16Z"/>
+                </svg>
+              </a>
             </li>
+          </ul>
+        </div>
+        <div class="search-bar">
+          <div class="container">
+            <div class="search-bar-wrapper">
+              <form action="" class="seach-form">
+                <span class="icon-search">
+                  <svg
+                  id="glyphicons-basic"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    fill="#000"
+                    id="search"
+                    d="M27.207,24.37866,20.6106,17.78235a9.03069,9.03069,0,1,0-2.82825,2.82825L24.37878,27.207a1,1,0,0,0,1.41425,0l1.414-1.41418A1,1,0,0,0,27.207,24.37866ZM13,19a6,6,0,1,1,6-6A6.00657,6.00657,0,0,1,13,19Z"
+                  />
+                </svg>
+                </span>
+                <input oninput="searchMovie()" type="text" placeholder="Search for a movie, tv show, person...">
+                <span class="clear-search">
+                  <a href="#">
+                    <svg id="glyphicons-basic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                      <path id="menu-close" d="M25.83881,23.01038a.5.5,0,0,1,0,.70715l-2.12128,2.12134a.50011.50011,0,0,1-.70709,0L16,18.82837l-7.01044,7.0105a.50011.50011,0,0,1-.70709,0L6.16119,23.71753a.5.5,0,0,1,0-.70715L13.17163,16,6.16119,8.9895a.49982.49982,0,0,1,0-.707L8.28247,6.16113a.5.5,0,0,1,.70709,0L16,13.17163l7.01044-7.0105a.5.5,0,0,1,.70709,0l2.12128,2.12134a.49982.49982,0,0,1,0,.707L18.82843,16Z"/>
+                    </svg>
+                  </a>
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="result">
+          <div class="trending-icon">
+            <div class="trending-wrapper">
+              <svg id="glyphicons-basic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path id="trending" d="M29,9v8a1,1,0,0,1-1,1H26a1,1,0,0,1-1-1V14.82812l-7.79291,7.793a1.00022,1.00022,0,0,1-1.41418,0L12,18.82812,7.12115,23.707a1.00022,1.00022,0,0,1-1.41418,0L4.293,22.293a.99986.99986,0,0,1,0-1.41406l6.99988-7a1.00022,1.00022,0,0,1,1.41418,0L16.5,17.67188,22.17188,12H20a1,1,0,0,1-1-1V9a1,1,0,0,1,1-1h8A1,1,0,0,1,29,9Z"/>
+              </svg>
+              <span>Trending</span>
+            </div>
+          </div>
+          <ul class="result-search">
           </ul>
         </div>
       </header>
@@ -131,7 +228,7 @@
               <div class="item-wrapper scroll-wrapper">
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/spiderman.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -168,14 +265,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/spiderman.html">Spider-Man: Across the Spider-Verse</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">May 31, 2023</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/mario.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -212,14 +309,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/mario.html">TThe Super Mario Bros. Movie</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Apr 05, 2023</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/elemental.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -256,14 +353,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/elemental.html">Elemental</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Jun 14, 2023</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/motal.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -300,14 +397,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/motal.html">Mortal Kombat Legends: Scorpions Revenge</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Apr 12, 2020</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/blackClover.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -344,14 +441,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/blackClover.html">Black Clover: Sword of the Wizard King</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Jun 16, 2023</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/SAO.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -388,14 +485,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/SAO.html">Sword Art Online the Movie -Progressive- Scherzo</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Oct 22, 2022</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/slime.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -432,14 +529,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/slime.html">That Time I Got Reincarnated slime</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Nov 25, 2022</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/kny.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -476,14 +573,14 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/kny.html">Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">May 31, 2023</p>
                   </div>
                 </div>
                 <div class="item">
                   <div class="image">
-                    <a href=""></a>
+                    <a href="../Movie_details_page/jjk.html"></a>
                     <div class="option">
                       <a href="#">
                         <svg
@@ -520,9 +617,53 @@
                       <div class="clone-circle"></div>
                     </div>
                     <h2>
-                      <a href="">Through My Window: Across the Sea</a>
+                      <a class="movie-name" href="../Movie_details_page/jjk.html">Jujutsu Kaisen 0</a>
                     </h2>
-                    <p>Jun 23, 2023</p>
+                    <p class="movie-date">Dec 24, 2021</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="image">
+                    <a href="../Movie_details_page/doraemon.html"></a>
+                    <div class="option">
+                      <a href="#">
+                        <svg
+                          id="glyphicons-basic"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 32 32"
+                        >
+                          <path
+                            id="circle-more"
+                            d="M16,4A12,12,0,1,0,28,16,12.01312,12.01312,0,0,0,16,4ZM10,18a2,2,0,1,1,2-2A2.00006,2.00006,0,0,1,10,18Zm6,0a2,2,0,1,1,2-2A2.00006,2.00006,0,0,1,16,18Zm6,0a2,2,0,1,1,2-2A2.00006,2.00006,0,0,1,22,18Z"
+                            fill="#FFFFFF"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="circle-wrapper">
+                      <svg class="progress-ring" height="45" width="45">
+                        <circle
+                          class="progress-ring__circle"
+                          stroke="#d2d531"
+                          stroke-width="2"
+                          fill="transparent"
+                          r="15.5"
+                          cx="22.5"
+                          cy="22.5"
+                        />
+                        <span class="text">
+                          <span class="text-chidle">50</span>
+                          <span class="text-percent">%</span>
+                        </span>
+                      </svg>
+                      <div class="clone-circle"></div>
+                    </div>
+                    <h2>
+                      <a class="movie-name" href="../Movie_details_page/doraemon.html">Stand by Me Doraemon</a>
+                    </h2>
+                    <p class="movie-date">Aug 08, 2014</p>
                   </div>
                 </div>
               </div>
@@ -614,9 +755,9 @@
                     </div>
                   </div>
                   <div class="item-foot">
-                    <h3>The Witcher</h3>
+                    <h3>Unknown: The Lost Pyramid</h3>
                     <p>
-                      Season 3 Volume 1 Teaser</p>
+                      Official Trailer</p>
                   </div>
                 </div>
                 <div class="item">
@@ -651,9 +792,9 @@
                     </div>
                   </div>
                   <div class="item-foot">
-                    <h3>The Witcher</h3>
+                    <h3>Avatar: The Way of Water</h3>
                     <p>
-                      Season 3 Volume 1 Teaser</p>
+                      Journey</p>
                   </div>
                 </div>
                 <div class="item">
@@ -688,9 +829,10 @@
                     </div>
                   </div>
                   <div class="item-foot">
-                    <h3>The Witcher</h3>
+                    <h3>Nausicaä of the Valley of the Wind</h3>
                     <p>
-                      Season 3 Volume 1 Teaser</p>
+                      Ghibli Fest 2023 Trailer
+</p>
                   </div>
                 </div>
                 <div class="item">
@@ -725,9 +867,9 @@
                     </div>
                   </div>
                   <div class="item-foot">
-                    <h3>The Witcher</h3>
+                    <h3>Pokémon</h3>
                     <p>
-                      Season 3 Volume 1 Teaser</p>
+                      Ultimate Journeys Part 3 Official Trailer</p>
                   </div>
                 </div>
                 <div class="item">
@@ -1943,6 +2085,7 @@
       </div>
     </div>
 
-    <script src="../Code_for_all/main.js"></script>
+    <script src="../Code_for_all/js/main.js"></script>
+    <script src="../Code_for_all/js/header.js"></script>
   </body>
 </html>

@@ -1,0 +1,24 @@
+
+.banner-wrapper{
+    background-image: url(../Img/jjk-bg.jpg);
+}
+
+.banner-bg{
+    background-image: linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) calc((50vw - 170px) - 340px), rgba(31.5, 31.5, 31.5, 0.84) 50%, rgba(31.5, 31.5, 31.5, 0.84) 100%);
+
+}
+
+
+.banner .banner-right,
+.banner .banner-right a {
+    color: #fff;
+}
+
+.banner .action .video svg path{
+    fill: #fff;
+}
+
+.banner .fact span:first-child {
+    border: 1px solid #fff !important;
+}
+

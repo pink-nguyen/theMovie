@@ -1,0 +1,305 @@
+
+/*conten character */
+#contenCharacter{
+    margin-top: 64px;
+    background: #fff;
+}
+
+/* shortcut */
+.shortcut-bar{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shortcut-bar__list{
+    display: flex;
+}
+
+.shortcut-bar__list > .item{
+    padding: 6px 0 4px 0;
+    margin-right: 40px;
+    line-height: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.shortcut-bar__list > .item:first-child{
+    border-bottom: 4px solid rgb(1, 180, 228);
+}
+
+.shortcut-bar__list > .item > span > span{
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin: 0px -4px 0px 4px;
+}
+
+.shortcut-bar__list .item  ul{
+    display: none;
+}
+
+.shortcut-bar__list .item:hover ul {
+    display: block;
+    min-width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    z-index: 100;
+    line-height: 16px;
+}
+
+.shortcut-bar__list .item ul > li{
+    padding: 4px 24px 4px 16px;
+    width: 100%;
+}
+
+.shortcut-bar__list .item:first-child ul > li:last-child{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.shortcut-bar__list .item ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shortcut-bar__list .item ul a{
+    color: #000;
+}
+
+
+.charactor-wrapper{
+    border-top: 1px solid rgb(227, 227, 227);
+}
+
+.charactor{
+    display: flex;
+    padding: 30px 40px;
+}
+
+
+#characterLeft{
+    padding-right: 30px;
+    position: relative;
+}
+#img{
+    border-radius: 10px;
+}
+.iconImg{
+    max-width: 25px;
+    height: auto;
+    margin: 20px 20px 0 0;
+}
+#characterLeft .visit-social{
+    padding: 10px;
+    background-color: rgb(60, 62, 155);
+    border-radius: 10px;
+    color: white;
+    
+}
+#f{
+    position:absolute;
+    top: 430px;
+    left: -20px;
+    display: none;
+} 
+#i{
+    
+    position: absolute;
+    top: 430px;
+    left: 20px;
+    display: none;
+}
+
+
+
+#characterLeft h3, p {
+    margin-top: 15px;
+}
+p{
+    font-weight: bold;
+}
+#logToEdit{
+    margin: 30px 0;
+    border-radius: 18px;
+    width: 150px;
+    height: 35px;
+    background-color: var(--color_login);
+    border: 0px;
+    color: #fff;
+    font-weight: 900;
+}
+#logToEdit:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#characterLeft a{
+    color: gray;
+}
+#characterLeft a:hover{
+    color: aqua;
+}
+
+#characterCenter{
+    width: 920px;
+}
+
+.info h3{
+    margin: 40px 0 0 0;
+}
+.info p{
+    word-wrap: break-word;
+    font-weight: 400;
+}
+#myBtn{
+    border: 0px;
+    background-color:white;
+    color: var(--color_login);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+#myBtn:hover{
+    color: rgb(89, 212, 89);
+}
+#more {display: none;} /*js readmoer
+
+/* <span style="background: linear-gradient(to left, rgba(0,0,0,0), #151515);"> lam mờ dần */ 
+
+
+/* scollbar */
+.menu-scollbar{
+    margin-top: 10px;
+    display: flex;
+    overflow-x: auto;
+    height: 300px;
+}
+
+.img-scollbar{
+    margin-right: 10px;
+}
+
+.img-scollbar img{
+    border-radius: 10px;
+}
+
+.img-scollbar p{
+    text-align: center;
+    font-weight: 50;
+    color: black;
+}
+.menu-scollbar::-webkit-scrollbar{
+    width:0;
+}
+/* acting */
+
+
+.acting-text{
+    margin: 20px 0;
+}
+.acting-text h3{
+    
+    float: left;
+}
+
+.acting-text-right{
+    margin-left: 700px;
+    position: relative;
+    
+}
+.act-menu{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #fff;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.act-menu p a{
+    font-weight: lighter;
+    color: black;
+}
+
+.act-menu p:hover{
+    background-color: rgb(253, 248, 248);
+}
+
+#menu-all{
+    position: absolute;
+    top:25px;
+    right: -5px;
+    display: none;
+}
+
+#menu-department{
+    position: absolute;
+    top:25px;
+    right: -70px;
+    display: none;
+}
+
+.act-menu span{
+    color: rgb(188, 170, 170);
+}
+
+.acting-text-right span{
+    margin: 0 10px 0 20px;
+    
+}
+.all-acting{
+    cursor: pointer;
+}
+.departmen-acting{
+    cursor: pointer;
+}
+.hover-acting:hover{
+    opacity: 50%;
+}
+
+.history-acting{
+    
+    box-shadow: 0px 0px  7px  rgb(182, 182, 174);
+}
+    
+
+/* history acting */
+
+.history-acting{
+    padding: 20px;
+}
+.history{
+    margin-bottom: 20px;
+   border-bottom: 1px solid lightgrey;
+}
+.row-2023{
+   padding-left: 20px; 
+   margin-bottom: 15px;
+}
+
+.row-2023 .circle{
+ margin: 0 20px;
+}
+
+.row-2023 .film-name{
+    font-weight: bolder;
+    color: black;
+}
+
+.row-2023 .film-name:hover{
+    color: aqua;
+}
+
+.row-2023 .actor{
+    margin-left: 110px;
+}
+.row-2023 .actor span{
+    opacity: 50%;
+}

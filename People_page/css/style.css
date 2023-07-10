@@ -1,0 +1,72 @@
+/*conten people*/
+#contenPeople{
+    background-color: #fff;
+    margin-top: 64px;
+}  
+
+.people-wrapper{
+    padding: 20px 40px;
+}
+
+#contenPeople h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#people{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.person{
+    width: calc((100% - 160px) / 5);
+    margin-top: 30px;
+    height: max-content;
+    box-shadow: 0px 0px  7px  rgb(182, 182, 174);
+}
+
+.person a{
+    color: #000;
+}
+
+.person img{
+    width: 100%;
+}
+
+.pstext{
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.pstext p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(000, 000, 000, .6);
+}   
+
+#pagePeople{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#pagePeople a:first-child{
+    border: 1px solid #000;
+    padding: 2px 8px;
+    margin-right: 4px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#pagePeople a{
+    width: 100%;
+    color: black;
+    margin: 0 4px
+}  
+
+.pagePeople-wrapper{
+    font-weight: 600;
+}

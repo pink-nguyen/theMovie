@@ -1,0 +1,254 @@
+
+
+.popular-wrapper svg{
+    width: 20px;
+    height: 20px;
+}
+/* content */
+.popular-wrapper{
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    margin-top: 64px;
+}
+
+.popular{
+    padding: 30px 40px;
+}
+
+.popular a{
+    color: #000;
+}
+
+.popular h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.popular-content{
+    display: flex;
+}
+
+.popular-content .filter{
+    max-width: 260px;
+    width: 260px;
+}
+
+.popular-content .filter .fil-wrapper{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 12px;
+}
+
+.popular-content .filter svg{
+    width: 16px;
+    height: 16px;
+}
+
+.popular-content .filter .fil-wrapper .fil:last-child,
+.popular-content .filter .fil-wrapper:nth-child(2) a,
+.popular-content .filter .fil-wrapper:first-child a{
+    border: none;
+}
+
+.popular-content .filter .fil-wrapper > a{
+    font-size: 17px;
+    padding: 14px 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.popular-content .filter .fil-wrapper h3{
+    font-weight: 300;
+    font-size: 16.5px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.popular-content .filter .fil-wrapper .fil{
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-content .filter .fil-wrapper .fil .showme:nth-child(2){
+    margin-top: 0;
+}
+
+.popular-content .filter .fil-wrapper .fil .showme{
+    margin-top: 6px;
+}
+
+.popular-content .filter .tag-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular-content .filter .tag-list a{
+    padding: 4px 12px;
+    margin: 8px 6px 0 0;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 14px;
+}
+
+.popular-content .filter .keyword{
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(158, 158, 158, .7);
+    color: rgb(158, 158, 158);
+}
+
+.popular-content .fil-btn{
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--color_login);
+    color: rgba(255,255,255,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/* list card */
+
+.list-card {
+    margin-left: 30px;
+    max-width: 1000px;
+}
+
+.list-card .circle-wrapper svg{
+    width: 38px;
+    height: 38px;
+}
+
+
+.list-card ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-card .card{
+    margin-bottom: 30px;
+}
+
+
+.list-card .image{
+    width: 180px;
+    height: 273px;
+    position: relative;
+}
+
+.list-card .image > a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.list-card .card:first-child .image > a{
+    background: url(/Home_page/Img/card-movie/spiderman.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(2) .image > a{
+    background: url(/Home_page/Img/card-movie/mario.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(3) .image > a{
+    background: url(/Home_page/Img/card-movie/Elemental.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(4) .image > a{
+    background: url(/Home_page/Img/card-movie/blackClover.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(5) .image > a{
+    background: url(/Home_page/Img/card-movie/slime.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(6) .image > a{
+    background: url(/Home_page/Img/card-movie/slime.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(7) .image > a{
+    background: url(/Home_page/Img/card-movie/doraemon.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(8) .image > a{
+    background: url(/Home_page/Img/card-movie/Kimetsu.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(9) .image > a{
+    background: url(/Home_page/Img/card-movie/SAO.jpg) no-repeat center/cover;
+}
+
+.list-card .card:nth-child(10) .image > a{
+    background: url(/Home_page/Img/card-movie/Motal.jpg) no-repeat center/cover;
+}
+
+.option a{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 4;
+    opacity: 0.6;
+}
+
+.list-card .content{
+    padding: 26px 10px 12px;
+    display: inline-block;
+    width: 180px;
+    height: 130px;
+    white-space: normal;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.list-card .content h2{
+    font-size: 16px;
+    margin: 0;
+}
+
+.list-card .content a{
+    font-weight: 700;
+    color: #000;
+}
+
+.list-card .content a:hover{
+    color: rgb(1, 180, 228);
+}
+
+.list-card .content p {
+    color: rgba(0,0,0,0.6);
+}
+
+.list-card .morre-btn{
+    width: 100%;
+    background-color: var(--color_login);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.list-card .morre-btn:hover{
+    color: #000;
+}
